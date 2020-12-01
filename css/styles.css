@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600&display=swap&subset=cyrillic');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 17px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: #1d1d1d;
+}
+
+.moon_calendar,
+.month_calendar,
+.hour_calendar {
+    font-size: 0;
+    border-left: 1px solid #eee;
+    border-top: 1px solid #eee;
+    margin-bottom: 10px;
+}
+
+.moon_calendar__item,
+.month_calendar__item,
+.hour_calendar__item {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 14px;
+    width: 20%;
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.moon_calendar__item:hover,
+.month_calendar__item:hover,
+.hour_calendar__item:hover,
+.moon_calendar__item.active,
+.month_calendar__item.active,
+.hour_calendar__item.active {
+    background: #f4f4ff;
+}
+
+#block-block-7 {
+    max-width: 280px;
+    margin: 0 auto;
+}
+
+
+.block-title {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #f3f3f3;
+    padding-bottom: 10px;
+}
+
+.selected-day-hollydays {
+    font-size: 12px;
+    list-style: none;
+    padding: 0;
+}
+
+.selected-day-hollydays li {
+    margin-bottom: 5px;
+}
